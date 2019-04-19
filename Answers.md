@@ -1,4 +1,9 @@
 1.  Explain the differences between `client-side routing` and `server-side routing`.
+
+    Client-side: Will only request the data that’s needed and causes the whole page to refresh.
+
+    Server-side: Faster than client-side and is smoother with animation. Initial loading is longer because it fully loads on the first request.
+
 2.  What does HTTP stand for?
 
     HyperText Transfer Protocol. Its a set of rules for how a browser can communicate with web servers.
@@ -13,4 +18,4 @@
 
 5.  Mention three tools we can use to make AJAX requests
 
-    axios, fetch, async
+    axios, fetch(),
